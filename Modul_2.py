@@ -1,28 +1,26 @@
 import numpy as np
-matriks_a = np.array([[11,12,13],
+matriks_A = np.array([[11,12,13],
                       [14,15,16],
                       [17,18,19]])
 
-matriks_b = np.array([[20,21,22],
+matriks_B = np.array([[20,21,22],
                       [23,24,25],
                       [26,27,28]])
-skalar_c = 5
 
-pernjumlahan_matriks = matriks_a + matriks_b
-perngurangan_matriks = matriks_a - matriks_b
-perkalian_skalar = matriks_a * skalar_c
-perkalian_dot = np.dot(matriks_a,matriks_b)
-perkalian_cross = np.cross(matriks_a,matriks_b)
-Transpose_A = np.transpose(matriks_a)
-Transpose_B= np.transpose(matriks_b)
+penjumlahan_matriks = matriks_A + matriks_B
+pengurangan_matriks = matriks_A - matriks_B
+perkalian_skalar = matriks_A * matriks_B
+perkalian_dot = np.dot(matriks_A,matriks_B)
+perkalian_cross = np.cross(matriks_A,matriks_B)
+Transpose_A = np.transpose(matriks_A)
+Transpose_B= np.transpose(matriks_B)
 
-print ("\nMatriks A: \n",matriks_a)
-print ("\nMatriks B: \n",matriks_b)
-print ("\nSkalar C: ",skalar_c)
-print ("\nPenjumlahan matriks: \n",pernjumlahan_matriks)
-print ("\nPengurangan matriks: \n",perngurangan_matriks)
-print ("\nPerkalian matriks skalar: \n",perkalian_skalar)
-print ("\nPerkalian matriks dot: \n",perkalian_dot)
-print ("\nPerkalian matriks cross: \n",perkalian_cross)
-print ("\nTranspose matriks A: \n",Transpose_A)
-print ("\nTranspose matriks B: \n",Transpose_B)
+print ("Matriks A: \n",matriks_A)
+print ("Matriks B: \n",matriks_B)
+print ("Penjumlahan matriks: \n",penjumlahan_matriks)
+print ("Pengurangan matriks: \n",pengurangan_matriks)
+print ("Perkalian matriks skalar: \n",perkalian_skalar)
+print ("Perkalian matriks dot: \n",perkalian_dot)
+print ("Perkalian matriks cross: \n",perkalian_cross)
+print ("Transpose matriks A: \n",Transpose_A)
+print ("Transpose matriks B: \n",Transpose_B)
