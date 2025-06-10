@@ -1,11 +1,11 @@
 import numpy as np
 matriks_a = np.array([[11,12,13],
-[14,15,16],
-[17,18,19]])
+                      [14,15,16],
+                      [17,18,19]])
 
 matriks_b = np.array([[20,21,22],
-[23,24,25],
-[26,27,28]])
+                      [23,24,25],
+                      [26,27,28]])
 skalar_c = 5
 
 pernjumlahan_matriks = matriks_a + matriks_b
